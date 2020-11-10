@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Super księgi</title>
+    <link rel="stylesheet" href="/login.css">
+</head>
+<body>
+<div th:replace="fragments.html :: logo"></div>
+<form id="login-form" method="post">
+    <input type="text" placeholder="login" class="text-input" th:field="*{userModel.login}">
+    <input type="password" placeholder="password" class="text-input" th:field="*{userModel.pass}">
+    <input type="submit" value="Zaloguj" id="form-submit">
+</form>
+</body>
+</html>

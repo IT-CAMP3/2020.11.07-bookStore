@@ -1,0 +1,27 @@
+#logo {
+    height: 300px;
+    display: block;
+    margin: 10px auto;
+}
+
+#menu {
+    text-align: center;
+    border-top: 1px solid gray;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 36px;
+    transition: color 1s;
+    margin: 5px 25px;
+}
+
+#menu a:hover {
+    color: red;
+}
+
+#content p {
+    font-size: 36px;
+    text-align: center;
+}
