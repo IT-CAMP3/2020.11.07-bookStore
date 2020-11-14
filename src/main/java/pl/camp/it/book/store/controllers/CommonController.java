@@ -26,6 +26,7 @@ public class CommonController {
     public String main(Model model) {
         if(sessionObject.isLogged()) {
             model.addAttribute("books", this.bookRepository.getAllBooks());
+            model.addAttribute("user", this.sessionObject.getUser());
             return "main";
         } else {
             return "redirect:/login";
@@ -34,28 +35,45 @@ public class CommonController {
 
     @RequestMapping(value = "/java", method = RequestMethod.GET)
     public String java(Model model) {
-        model.addAttribute("books", this.bookRepository.getJavaBooks());
-        return "main";
+        if(sessionObject.isLogged()) {
+            model.addAttribute("books", this.bookRepository.getJavaBooks());
+            model.addAttribute("user", this.sessionObject.getUser());
+            return "main";
+        } else {
+            return "redirect:/login";
+        }
     }
 
     @RequestMapping(value = "/other", method = RequestMethod.GET)
     public String other(Model model) {
-        model.addAttribute("books", this.bookRepository.getOtherBooks());
-        return "main";
+        if(sessionObject.isLogged()) {
+            model.addAttribute("books", this.bookRepository.getOtherBooks());
+            model.addAttribute("user", this.sessionObject.getUser());
+            return "main";
+        } else {
+            return "redirect:/login";
+        }
     }
 
     @RequestMapping(value = "/filter", method = RequestMethod.POST)
     public String filter(@RequestParam String filter,
                          Model model) {
-
-        List<Book> filteredBooks = this.bookRepository.getBooksByFilter(filter);
-        model.addAttribute("books", filteredBooks);
-
-        return "main";
+        if(sessionObject.isLogged()) {
+            model.addAttribute("books", this.bookRepository.getBooksByFilter(filter));
+            model.addAttribute("user", this.sessionObject.getUser());
+            return "main";
+        } else {
+            return "redirect:/login";
+        }
     }
 
     @RequestMapping(value = "/contact", method = RequestMethod.GET)
-    public String contact() {
-        return "contact";
+    public String contact(Model model) {
+        if(sessionObject.isLogged()) {
+            model.addAttribute("user", this.sessionObject.getUser());
+            return "contact";
+        } else {
+            return "redirect:/login";
+        }
     }
 }

@@ -1,10 +1,10 @@
-#login-form {
+#edit-data-form {
     width: 500px;
-    margin: 20px auto;
+    margin: 50px auto;
     padding: 0;
 }
 
-#login-form input {
+#edit-data-form input {
     display: block;
 }
 
@@ -15,7 +15,7 @@
     text-align: center;
 }
 
-#form-submit {
+.form-submit {
     color: black;
     width: 30%;
     margin: 15px auto;
@@ -26,8 +26,18 @@
     transition: color 1s, border 1s;
 }
 
-#form-submit:hover {
+.form-submit:hover {
     cursor: pointer;
     color: red;
     border: 2px solid black;
+}
+
+#change-pass-form {
+    width: 500px;
+    margin: 50px auto;
+    padding: 0;
+}
+
+#change-pass-form input {
+    display: block;
 }
