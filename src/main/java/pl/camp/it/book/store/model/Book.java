@@ -72,4 +72,9 @@ public class Book {
         JAVA,
         OTHER
     }
+
+    @Override
+    public Object clone() {
+        return new Book(this.title, this.author, this.pieces, this.isbn, this.price, this.category);
+    }
 }

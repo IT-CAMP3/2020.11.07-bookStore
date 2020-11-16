@@ -12,7 +12,7 @@
 
 <div id="filter-form">
     <form method="post" action="/filter">
-        <input type="text" placeholder="filtruj" name="filter">
+        <input type="text" placeholder="filtruj" name="filter" th:value="${filter}">
         <input type="submit" value="Filtruj">
     </form>
 </div>
@@ -26,6 +26,8 @@
                 <span th:text="'Ilość: ' + ${book.pieces}"></span>
                 <span th:text="'ISBN: ' + ${book.isbn}"></span>
                 <span th:text="'Cena: ' + ${book.price}"></span>
+                <a th:href="@{/addToBasket/{isbn}(isbn=${book.isbn})}" class="buy"></a>
+                <a th:if="${user.role.name() == 'ADMIN'}" th:href="@{/editBook/{isbn}(isbn=${book.isbn})}" class="edit"></a>
             </div>
         </div>
     </th:block>

@@ -13,7 +13,8 @@ public class ListUserRepositoryImpl implements IUserRepository {
     private final List<User> userList = new ArrayList<>();
 
     public ListUserRepositoryImpl() {
-        this.userList.add(new User("Mateusz", "Bereda", "admin", "admin"));
+        this.userList.add(new User("Mateusz", "Bereda", "admin", "admin", User.Role.ADMIN));
+        this.userList.add(new User("Jan", "Kowalski", "jan", "jan", User.Role.USER));
     }
 
     @Override
@@ -54,5 +55,21 @@ public class ListUserRepositoryImpl implements IUserRepository {
         }
 
         return null;
+    }
+
+    @Override
+    public boolean checkIfLoginExist(String login) {
+        for(User userFromDB : this.userList) {
+            if(userFromDB.getLogin().equals(login)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    @Override
+    public void addUser(User user) {
+        this.userList.add(user);
     }
 }

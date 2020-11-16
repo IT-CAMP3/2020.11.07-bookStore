@@ -41,3 +41,9 @@
 #change-pass-form input {
     display: block;
 }
+
+#info {
+    font-size: 26px;
+    color: red;
+    text-align: center;
+}

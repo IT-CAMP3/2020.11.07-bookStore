@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import pl.camp.it.book.store.database.IBookRepository;
 import pl.camp.it.book.store.model.Book;
 import pl.camp.it.book.store.session.SessionObject;
+import pl.camp.it.book.store.utils.FilterUtils;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -22,33 +23,34 @@ public class CommonController {
     @Resource
     SessionObject sessionObject;
 
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String commonRedirect() {
+        return "redirect:/main";
+    }
+
     @RequestMapping(value = "/main", method = RequestMethod.GET)
-    public String main(Model model) {
+    public String main(Model model, @RequestParam(defaultValue = "none") String category) {
         if(sessionObject.isLogged()) {
-            model.addAttribute("books", this.bookRepository.getAllBooks());
-            model.addAttribute("user", this.sessionObject.getUser());
-            return "main";
-        } else {
-            return "redirect:/login";
-        }
-    }
+            switch (category) {
+                case "java":
+                    model.addAttribute("books",
+                            FilterUtils.filterBooks(this.bookRepository.getJavaBooks(),
+                                    this.sessionObject.getFilter()));
+                    break;
+                case "other":
+                    model.addAttribute("books",
+                            FilterUtils.filterBooks(this.bookRepository.getOtherBooks(),
+                                    this.sessionObject.getFilter()));
+                    break;
 
-    @RequestMapping(value = "/java", method = RequestMethod.GET)
-    public String java(Model model) {
-        if(sessionObject.isLogged()) {
-            model.addAttribute("books", this.bookRepository.getJavaBooks());
+                    default:
+                        model.addAttribute("books",
+                                FilterUtils.filterBooks(this.bookRepository.getAllBooks(),
+                                        this.sessionObject.getFilter()));
+                        break;
+            }
             model.addAttribute("user", this.sessionObject.getUser());
-            return "main";
-        } else {
-            return "redirect:/login";
-        }
-    }
-
-    @RequestMapping(value = "/other", method = RequestMethod.GET)
-    public String other(Model model) {
-        if(sessionObject.isLogged()) {
-            model.addAttribute("books", this.bookRepository.getOtherBooks());
-            model.addAttribute("user", this.sessionObject.getUser());
+            model.addAttribute("filter", this.sessionObject.getFilter());
             return "main";
         } else {
             return "redirect:/login";
@@ -56,12 +58,10 @@ public class CommonController {
     }
 
     @RequestMapping(value = "/filter", method = RequestMethod.POST)
-    public String filter(@RequestParam String filter,
-                         Model model) {
+    public String filter(@RequestParam String filter) {
         if(sessionObject.isLogged()) {
-            model.addAttribute("books", this.bookRepository.getBooksByFilter(filter));
-            model.addAttribute("user", this.sessionObject.getUser());
-            return "main";
+            this.sessionObject.setFilter(filter);
+            return "redirect:/main";
         } else {
             return "redirect:/login";
         }
