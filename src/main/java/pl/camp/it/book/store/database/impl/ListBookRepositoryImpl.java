@@ -7,13 +7,12 @@ import pl.camp.it.book.store.model.Book;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
 public class ListBookRepositoryImpl implements IBookRepository {
 
     private final List<Book> books = new ArrayList<>();
 
     public ListBookRepositoryImpl() {
-        this.books.add(new Book("Czysty kod. Podręcznik dobrego programisty",
+        /*this.books.add(new Book("Czysty kod. Podręcznik dobrego programisty",
                 "Robert C. Martin",
                 10,
                 "978-83-283-0234-1",
@@ -39,7 +38,7 @@ public class ListBookRepositoryImpl implements IBookRepository {
                 20,
                 "978-83-283-5778-5",
                 64.35,
-                Book.Category.JAVA));
+                Book.Category.JAVA));*/
     }
 
     @Override
@@ -48,29 +47,9 @@ public class ListBookRepositoryImpl implements IBookRepository {
     }
 
     @Override
-    public List<Book> getJavaBooks() {
-        List<Book> javaBooks = new ArrayList<>();
-
-        for(Book book : this.books) {
-            if(book.getCategory() == Book.Category.JAVA) {
-                javaBooks.add(book);
-            }
-        }
-
-        return javaBooks;
-    }
-
-    @Override
-    public List<Book> getOtherBooks() {
-        List<Book> otherBooks = new ArrayList<>();
-
-        for(Book book : this.books) {
-            if(book.getCategory() == Book.Category.OTHER) {
-                otherBooks.add(book);
-            }
-        }
-
-        return otherBooks;
+    public List<Book> getBooksByCategory(Book.Category category) {
+        //TODO Do zrobienia
+        return null;
     }
 
     @Override
@@ -87,5 +66,10 @@ public class ListBookRepositoryImpl implements IBookRepository {
     @Override
     public void addBook(Book book) {
         this.books.add(book);
+    }
+
+    @Override
+    public void updateBook(Book book) {
+        //TODO do zrobienia
     }
 }

@@ -81,6 +81,7 @@ public class UserController {
         Matcher surnameMatcher = regexPattern.matcher(user.getSurname());
 
         if(!nameMatcher.matches() || !surnameMatcher.matches()) {
+            this.sessionObject.setInfo("Nieprawidłowe dane !!");
             return "redirect:/edit";
         }
 
@@ -141,7 +142,8 @@ public class UserController {
             return "redirect:/register";
         }
 
-        User user = new User(userRegistrationData.getName(),
+        User user = new User(0,
+                userRegistrationData.getName(),
                 userRegistrationData.getSurname(),
                 userRegistrationData.getLogin(),
                 userRegistrationData.getPass(),

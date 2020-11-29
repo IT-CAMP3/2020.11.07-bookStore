@@ -67,11 +67,8 @@ public class AdminController {
 
     @RequestMapping(value = "/editBook/{isbn}", method = RequestMethod.POST)
     public String editBook(@ModelAttribute Book book, @PathVariable String isbn) {
-        Book bookFromDataBase = this.bookRepository.getBookByISBN(isbn);
-        bookFromDataBase.setAuthor(book.getAuthor());
-        bookFromDataBase.setPieces(book.getPieces());
-        bookFromDataBase.setCategory(book.getCategory());
-        bookFromDataBase.setPrice(book.getPrice());
+        book.setIsbn(isbn);
+        this.bookRepository.updateBook(book);
 
         return "redirect:/main";
     }

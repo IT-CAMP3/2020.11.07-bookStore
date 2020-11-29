@@ -1,6 +1,7 @@
 package pl.camp.it.book.store.model;
 
 public class Book {
+    private int id;
     private String title;
     private String author;
     private int pieces;
@@ -8,7 +9,8 @@ public class Book {
     private double price;
     private Category category;
 
-    public Book(String title, String author, int pieces, String isbn, double price, Category category) {
+    public Book(int id, String title, String author, int pieces, String isbn, double price, Category category) {
+        this.id = id;
         this.title = title;
         this.author = author;
         this.pieces = pieces;
@@ -18,6 +20,14 @@ public class Book {
     }
 
     public Book() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getTitle() {
@@ -75,6 +85,6 @@ public class Book {
 
     @Override
     public Object clone() {
-        return new Book(this.title, this.author, this.pieces, this.isbn, this.price, this.category);
+        return new Book(this.id, this.title, this.author, this.pieces, this.isbn, this.price, this.category);
     }
 }

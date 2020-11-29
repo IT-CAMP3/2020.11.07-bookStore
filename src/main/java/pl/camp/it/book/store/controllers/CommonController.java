@@ -34,12 +34,12 @@ public class CommonController {
             switch (category) {
                 case "java":
                     model.addAttribute("books",
-                            FilterUtils.filterBooks(this.bookRepository.getJavaBooks(),
+                            FilterUtils.filterBooks(this.bookRepository.getBooksByCategory(Book.Category.JAVA),
                                     this.sessionObject.getFilter()));
                     break;
                 case "other":
                     model.addAttribute("books",
-                            FilterUtils.filterBooks(this.bookRepository.getOtherBooks(),
+                            FilterUtils.filterBooks(this.bookRepository.getBooksByCategory(Book.Category.OTHER),
                                     this.sessionObject.getFilter()));
                     break;
 

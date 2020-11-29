@@ -6,8 +6,8 @@ import java.util.List;
 
 public interface IBookRepository {
     List<Book> getAllBooks();
-    List<Book> getJavaBooks();
-    List<Book> getOtherBooks();
+    List<Book> getBooksByCategory(Book.Category category);
     Book getBookByISBN(String isbn);
     void addBook(Book book);
+    void updateBook(Book book);
 }
