@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import pl.camp.it.book.store.database.IBookRepository;
 import pl.camp.it.book.store.model.Book;
+import pl.camp.it.book.store.services.IBookService;
 import pl.camp.it.book.store.session.SessionObject;
 
 import javax.annotation.Resource;
@@ -16,11 +17,11 @@ import javax.annotation.Resource;
 @Controller
 public class AdminController {
 
-    @Autowired
-    IBookRepository bookRepository;
-
     @Resource
     SessionObject sessionObject;
+
+    @Autowired
+    IBookService bookService;
 
     @RequestMapping(value = "/addProduct", method = RequestMethod.GET)
     public String addProductForm(Model model) {
@@ -38,37 +39,27 @@ public class AdminController {
         if(!this.sessionObject.isLogged()) {
             return "redirect:/login";
         }
-        Book bookFromDB = this.bookRepository.getBookByISBN(book.getIsbn());
-
-        if(bookFromDB != null) {
-            bookFromDB.setPieces(bookFromDB.getPieces() + book.getPieces());
+        IBookService.AddBookResult result = this.bookService.addBook(book);
+        if(result == IBookService.AddBookResult.PIECES_ADDED) {
             this.sessionObject.setInfo("Zwiększono ilość sztuk !!");
-        } else {
-            if(book.getTitle().equals("") ||
-                    book.getAuthor().equals("") ||
-                    book.getIsbn().equals("") ||
-            book.getPrice() == 0.0) {
-                this.sessionObject.setInfo("Uzupełnij formularz !!");
-            } else {
-                this.bookRepository.addBook(book);
-                this.sessionObject.setInfo("Dodano nową książkę !!");
-            }
+        } else if(result == IBookService.AddBookResult.BOOK_ADDED) {
+            this.sessionObject.setInfo("Dodano nową książkę !!");
         }
         return "redirect:/addProduct";
     }
 
-    @RequestMapping(value = "/editBook/{isbn}", method = RequestMethod.GET)
-    public String editBookPage(@PathVariable String isbn, Model model) {
-        Book book = this.bookRepository.getBookByISBN(isbn);
+    @RequestMapping(value = "/editBook/{id}", method = RequestMethod.GET)
+    public String editBookPage(@PathVariable int id, Model model) {
+        Book book = this.bookService.getBookById(id);
         model.addAttribute("book", book);
         model.addAttribute("user", this.sessionObject.getUser());
         return "editBook";
     }
 
-    @RequestMapping(value = "/editBook/{isbn}", method = RequestMethod.POST)
-    public String editBook(@ModelAttribute Book book, @PathVariable String isbn) {
-        book.setIsbn(isbn);
-        this.bookRepository.updateBook(book);
+    @RequestMapping(value = "/editBook/{id}", method = RequestMethod.POST)
+    public String editBook(@ModelAttribute Book book, @PathVariable int id) {
+        book.setId(id);
+        this.bookService.updateBook(book);
 
         return "redirect:/main";
     }

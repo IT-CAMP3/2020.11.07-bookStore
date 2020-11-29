@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import pl.camp.it.book.store.database.IBookRepository;
 import pl.camp.it.book.store.model.Book;
+import pl.camp.it.book.store.services.IBookService;
 import pl.camp.it.book.store.session.SessionObject;
 import pl.camp.it.book.store.utils.FilterUtils;
 
@@ -18,7 +19,7 @@ import java.util.List;
 public class CommonController {
 
     @Autowired
-    IBookRepository bookRepository;
+    IBookService bookService;
 
     @Resource
     SessionObject sessionObject;
@@ -31,24 +32,7 @@ public class CommonController {
     @RequestMapping(value = "/main", method = RequestMethod.GET)
     public String main(Model model, @RequestParam(defaultValue = "none") String category) {
         if(sessionObject.isLogged()) {
-            switch (category) {
-                case "java":
-                    model.addAttribute("books",
-                            FilterUtils.filterBooks(this.bookRepository.getBooksByCategory(Book.Category.JAVA),
-                                    this.sessionObject.getFilter()));
-                    break;
-                case "other":
-                    model.addAttribute("books",
-                            FilterUtils.filterBooks(this.bookRepository.getBooksByCategory(Book.Category.OTHER),
-                                    this.sessionObject.getFilter()));
-                    break;
-
-                    default:
-                        model.addAttribute("books",
-                                FilterUtils.filterBooks(this.bookRepository.getAllBooks(),
-                                        this.sessionObject.getFilter()));
-                        break;
-            }
+            model.addAttribute("books", this.bookService.getBooksByCategoryWithFilter(category));
             model.addAttribute("user", this.sessionObject.getUser());
             model.addAttribute("filter", this.sessionObject.getFilter());
             return "main";

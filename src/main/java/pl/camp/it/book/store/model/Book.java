@@ -87,4 +87,24 @@ public class Book {
     public Object clone() {
         return new Book(this.id, this.title, this.author, this.pieces, this.isbn, this.price, this.category);
     }
+
+    @Override
+    public String toString() {
+        return new StringBuilder().append("Book{")
+                .append("id=")
+                .append(id)
+                .append(", title='")
+                .append(title)
+                .append(", author='")
+                .append(author)
+                .append(", pieces=")
+                .append(pieces)
+                .append(", isbn='")
+                .append(isbn)
+                .append(", price=")
+                .append(price)
+                .append(", category=")
+                .append(category)
+                .append('}').toString();
+    }
 }
