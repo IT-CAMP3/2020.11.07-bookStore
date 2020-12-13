@@ -1,12 +1,19 @@
 package pl.camp.it.book.store.model;
 
+import javax.persistence.*;
+import java.util.List;
+
+@Entity(name = "tbook")
 public class Book {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String title;
     private String author;
     private int pieces;
     private String isbn;
     private double price;
+    @Enumerated(EnumType.STRING)
     private Category category;
 
     public Book(int id, String title, String author, int pieces, String isbn, double price, Category category) {

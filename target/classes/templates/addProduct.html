@@ -9,13 +9,14 @@
 <body>
 <div th:replace="fragments.html :: logo"></div>
 <div th:replace="fragments.html :: menu"></div>
-<form method="post" id="register-form">
+<form method="post" id="register-form" enctype="multipart/form-data">
     <div th:if="${info != null}" th:text="${info}" id="info"></div>
     <input type="text" placeholder="Tytuł" class="text-input" th:field="${book.title}">
     <input type="text" placeholder="Autor" class="text-input" th:field="${book.author}">
     <input type="text" placeholder="Ilość" class="text-input" th:field="${book.pieces}">
     <input type="text" placeholder="ISBN" class="text-input" th:field="${book.isbn}">
     <input type="text" placeholder="Cena" class="text-input" th:field="${book.price}">
+    <input type="file" name="obrazek">
     <select th:field="${book.category}" class="text-input">
         <option value="JAVA">Java</option>
         <option value="OTHER">Inne</option>

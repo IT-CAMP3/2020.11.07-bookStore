@@ -21,9 +21,6 @@ import java.util.regex.Pattern;
 @Controller
 public class UserController {
 
-    @Autowired
-    IUserRepository userRepository;
-
     @Resource
     SessionObject sessionObject;
 

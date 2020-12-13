@@ -1,11 +1,18 @@
 package pl.camp.it.book.store.model;
 
+import javax.persistence.*;
+import java.util.List;
+
+@Entity(name = "tuser")
 public class User {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
     private String surname;
     private String login;
     private String pass;
+    @Enumerated(EnumType.STRING)
     private Role role;
 
     public User(int id, String name, String surname, String login, String pass, Role role) {
@@ -71,5 +78,17 @@ public class User {
     public enum Role {
         USER,
         ADMIN
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", login='" + login + '\'' +
+                ", pass='" + pass + '\'' +
+                ", role=" + role +
+                '}';
     }
 }

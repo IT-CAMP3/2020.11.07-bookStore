@@ -26,7 +26,8 @@
                 <span th:text="'Ilość: ' + ${book.pieces}"></span>
                 <span th:text="'ISBN: ' + ${book.isbn}"></span>
                 <span th:text="'Cena: ' + ${book.price}"></span>
-                <a th:href="@{/addToBasket/{id}(id=${book.id})}" class="buy"></a>
+                <a th:if="${book.pieces > 0}" th:href="@{/addToBasket/{id}(id=${book.id})}" class="buy"></a>
+                <a th:if="${book.pieces <= 0}" th:href="@{/addToBasket/{id}(id=${book.id})}" class="buy-blocked"></a>
                 <a th:if="${user.role.name() == 'ADMIN'}" th:href="@{/editBook/{id}(id=${book.id})}" class="edit"></a>
             </div>
         </div>

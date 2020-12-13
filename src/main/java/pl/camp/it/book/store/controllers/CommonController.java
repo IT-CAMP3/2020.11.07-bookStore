@@ -32,7 +32,15 @@ public class CommonController {
     @RequestMapping(value = "/main", method = RequestMethod.GET)
     public String main(Model model, @RequestParam(defaultValue = "none") String category) {
         if(sessionObject.isLogged()) {
-            model.addAttribute("books", this.bookService.getBooksByCategoryWithFilter(category));
+            List<Book> mainStoreBooks = this.bookService.getBooksByCategoryWithFilter(category);
+            for(Book bookFormMainStore : mainStoreBooks) {
+                for(Book bookFormBasket : this.sessionObject.getBasket()) {
+                    if(bookFormMainStore.getId() == bookFormBasket.getId()) {
+                        bookFormMainStore.setPieces(bookFormMainStore.getPieces() - bookFormBasket.getPieces());
+                    }
+                }
+            }
+            model.addAttribute("books", mainStoreBooks);
             model.addAttribute("user", this.sessionObject.getUser());
             model.addAttribute("filter", this.sessionObject.getFilter());
             return "main";

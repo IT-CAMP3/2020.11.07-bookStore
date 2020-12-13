@@ -16,6 +16,7 @@
         <div class="pieces">Ilość</div>
         <div class="price1">Cena za sztukę</div>
         <div class="price2">Cena</div>
+        <div class="remove-empty-space"></div>
     </div>
     <th:block th:each="book : ${books}">
         <div class="basket-row book">
@@ -23,6 +24,7 @@
             <div class="pieces" th:text="${book.pieces}"></div>
             <div class="price1" th:text="${book.price}"></div>
             <div class="price2" th:text="${book.price * book.pieces}"></div>
+            <a th:href="@{/remove-book-from-basket/{id}(id=${book.id})}" class="remove-button"></a>
         </div>
     </th:block>
     <div class="basket-row">
@@ -30,7 +32,10 @@
         <div class="pieces"></div>
         <div class="price1">Suma</div>
         <div class="price2" th:text="${bill}"></div>
+        <div class="remove-empty-space"></div>
     </div>
+
+    <a th:if="${not #lists.isEmpty(books)}" href="/confirm-order" id="order-confirmation-button">Potwierdź zamówienie</a>
 </div>
 </body>
 </html>

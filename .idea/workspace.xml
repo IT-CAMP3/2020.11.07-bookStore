@@ -1,80 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8c539614-5a72-469c-82a2-65e9cb0462cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/configuration/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/configuration/AppConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/AdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/BasketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/BasketController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/CommonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/BookDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/BookDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/database/impl/JDBCBookRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/database/impl/JDBCBookRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/database/impl/JDBCUserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/database/impl/JDBCUserRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editBook.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editBook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/IBasketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/IBasketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/BasketServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/BasketServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/basket.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/basket.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/configuration/AppConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/configuration/AppConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/controllers/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/controllers/BasketController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/controllers/BasketController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/controllers/CommonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/controllers/CommonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/IBookDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/IBookDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/IUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/IUserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/impl/BookDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/impl/BookDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/impl/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/impl/UserDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/IBookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/IBookRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/IUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/IUserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/JDBCBookRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/JDBCBookRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/JDBCUserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/JDBCUserRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/ListBookRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/ListBookRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/ListUserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/ListUserRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/Book$Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/Book$Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/User$Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/User$Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/view/ChangePassData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/view/ChangePassData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/view/UserRegistrationData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/view/UserRegistrationData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IBasketService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IBasketService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IBookService$AddBookResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IBookService$AddBookResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IBookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IBookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/impl/BasketServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/impl/BasketServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/session/SessionObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/session/SessionObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/utils/FilterUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/utils/FilterUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/basket.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/basket.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/common-controls.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/common-controls.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/edit.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/edit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/editProfileValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/editProfileValidator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/loginValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/loginValidator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/addProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/addProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/editBook.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/editBook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/register.html" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1136067431">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.19" value="2" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="css" value="1581" />
-          <entry key="html" value="2656" />
-          <entry key="java" value="15174" />
-          <entry key="js" value="670" />
-          <entry key="xml" value="44" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="1581" />
-          <entry key="HTML" value="2656" />
-          <entry key="JAVA" value="15174" />
-          <entry key="JavaScript" value="670" />
-          <entry key="XML" value="44" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="css" value="19" />
-          <entry key="html" value="45" />
-          <entry key="java" value="126" />
-          <entry key="js" value="5" />
-          <entry key="png" value="1" />
-          <entry key="xml" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="CSS" value="19" />
-          <entry key="HTML" value="45" />
-          <entry key="Image" value="1" />
-          <entry key="JAVA" value="126" />
-          <entry key="JavaScript" value="5" />
-          <entry key="XML" value="4" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
@@ -123,8 +131,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/UserDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="57" column="100" selection-start-line="57" selection-start-column="100" selection-end-line="57" selection-end-column="100" />
+            <state relative-caret-position="264">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,9 +166,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -221,19 +229,13 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="2576" />
     <option name="height" value="1416" />
   </component>
+  <component name="ProjectId" id="1lY3Uf8RfMaOmKKGZMWG7J9g1N6" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -479,32 +481,38 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606665981955" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zadania domowe/problem/Web_attendance_register-2020.11.13/pom.xml" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606666106875" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IT-CAMP3\2020.11.07-bookStore\src\main\resources\static" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\IT-CAMP3\2020.11.07-bookStore\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="pl.camp.it.book.store.App" />
-      <module name="2020.11.07-bookStore" />
+      <module name="book-store" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.camp.it.book.store.Main" />
+      <module name="book-store" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.camp.it.book.store.*" />
@@ -518,9 +526,11 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -547,7 +557,7 @@
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25783134" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25783134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -556,7 +566,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26443514" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26443514" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -578,8 +588,17 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/thymeleaf-spring5-3.0.11.RELEASE.jar!/org/thymeleaf/spring5/expression/SPELVariableExpressionEvaluator.class">
@@ -963,8 +982,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/UserDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="57" column="100" selection-start-line="57" selection-start-column="100" selection-end-line="57" selection-end-column="100" />
+        <state relative-caret-position="264">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
