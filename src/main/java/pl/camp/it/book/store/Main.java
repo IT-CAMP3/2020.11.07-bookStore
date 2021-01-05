@@ -1,5 +1,8 @@
 package pl.camp.it.book.store;
 
+import pl.camp.it.book.store.dao.IBookDAO;
+import pl.camp.it.book.store.model.Book;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
@@ -43,5 +46,39 @@ public class Main {
         }
 
         Integer[] tab2 = new Integer[10];
+
+        /************************************************************/
+
+        IBookDAO mojeNoweJednorazoweDAO = new IBookDAO() {
+            @Override
+            public Book getBookByISBN(String isbn) {
+                return null;
+            }
+
+            @Override
+            public void updateBook(Book book) {
+
+            }
+
+            @Override
+            public void persistBook(Book book) {
+
+            }
+
+            @Override
+            public Book getBookById(int id) {
+                return null;
+            }
+
+            @Override
+            public List<Book> getBooksByCategory(Book.Category category) {
+                return null;
+            }
+
+            @Override
+            public List<Book> getAllBooks() {
+                return null;
+            }
+        };
     }
 }

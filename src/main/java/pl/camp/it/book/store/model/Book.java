@@ -1,7 +1,6 @@
 package pl.camp.it.book.store.model;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Entity(name = "tbook")
 public class Book {
@@ -113,5 +112,21 @@ public class Book {
                 .append(", category=")
                 .append(category)
                 .append('}').toString();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj instanceof Book) {
+            Book book = (Book) obj;
+            return this.id == book.getId() &&
+            this.title.equals(book.getTitle()) &&
+            this.author.equals(book.getAuthor()) &&
+            this.pieces == book.getPieces() &&
+            this.isbn.equals(book.isbn) &&
+            this.price == book.getPrice() &&
+            this.category == book.getCategory();
+        }
+
+        return false;
     }
 }

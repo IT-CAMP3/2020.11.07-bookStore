@@ -17,7 +17,7 @@ public class SessionObject {
     private List<Book> basket = new ArrayList<>();
 
     public boolean isLogged() {
-        return !(this.user == null);
+        return this.user != null;
     }
 
     public User getUser() {

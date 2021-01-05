@@ -5,79 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c539614-5a72-469c-82a2-65e9cb0462cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/configuration/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/configuration/AppConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/BasketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/BasketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/CommonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/BookDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/BookDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/UserDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/database/impl/JDBCBookRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/database/impl/JDBCBookRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/database/impl/JDBCUserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/database/impl/JDBCUserRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/IBasketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/IBasketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/BasketServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/BasketServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/basket.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/basket.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addProduct.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/basket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/configuration/AppConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/configuration/AppConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/controllers/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/controllers/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/controllers/BasketController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/controllers/BasketController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/controllers/CommonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/controllers/CommonController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/controllers/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/IBookDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/IBookDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/IUserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/IUserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/impl/BookDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/impl/BookDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/impl/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/impl/UserDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/IBookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/IBookRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/IUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/IUserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/JDBCBookRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/JDBCBookRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/JDBCUserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/JDBCUserRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/ListBookRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/ListBookRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/ListUserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/ListUserRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/session/SessionObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/session/SessionObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/Book$Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/Book$Category.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/User$Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/User$Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/view/ChangePassData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/view/ChangePassData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/view/UserRegistrationData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/view/UserRegistrationData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IBasketService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IBasketService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IBookService$AddBookResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IBookService$AddBookResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IBookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IBookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/impl/BasketServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/impl/BasketServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/impl/BookServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/session/SessionObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/session/SessionObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/utils/FilterUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/utils/FilterUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/basket.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/basket.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/common-controls.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/common-controls.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/edit.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/edit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/editProfileValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/editProfileValidator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/loginValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/loginValidator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/addProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/addProduct.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/basket.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/editBook.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/editBook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,8 +102,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -500,7 +435,7 @@
       <recent name="E:\IT-CAMP3\2020.11.07-bookStore\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.FilterUtilsTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -510,23 +445,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.camp.it.book.store.Main" />
+    <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book-store" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.camp.it.book.store.*" />
+          <option name="PATTERN" value="pl.camp.it.book.store.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="pl.camp.it.book.store.model" />
+      <option name="MAIN_CLASS_NAME" value="pl.camp.it.book.store.model.BookTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book-store" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.camp.it.book.store.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.camp.it.book.store.utils" />
+      <option name="MAIN_CLASS_NAME" value="pl.camp.it.book.store.utils.FilterUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterUtilsTest.filterBooksWithNullPattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book-store" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.camp.it.book.store.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.camp.it.book.store.utils" />
+      <option name="MAIN_CLASS_NAME" value="pl.camp.it.book.store.utils.FilterUtilsTest" />
+      <option name="METHOD_NAME" value="filterBooksWithNullPattern" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SessionObjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book-store" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.camp.it.book.store.session.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.camp.it.book.store.session" />
+      <option name="MAIN_CLASS_NAME" value="pl.camp.it.book.store.session.SessionObjectTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FilterUtilsTest" />
+        <item itemvalue="JUnit.BookTest" />
+        <item itemvalue="JUnit.SessionObjectTest" />
+        <item itemvalue="JUnit.FilterUtilsTest.filterBooksWithNullPattern" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
