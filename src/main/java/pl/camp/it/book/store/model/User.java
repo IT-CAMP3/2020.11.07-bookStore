@@ -91,4 +91,22 @@ public class User {
                 ", role=" + role +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj instanceof User) {
+            User user = (User) obj;
+            if(this.id == user.id
+                    && this.login.equals(user.login)
+                    && this.name.equals(user.name)
+                    && this.pass.equals(user.pass)
+                    && this.role == user.role
+                    && this.surname.equals(user.surname)
+            ) {
+                return true;
+            }
+        }
+
+        return false;
+    }
 }

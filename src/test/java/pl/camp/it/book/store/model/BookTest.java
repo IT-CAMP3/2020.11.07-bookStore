@@ -26,7 +26,6 @@ public class BookTest {
         Assert.assertEquals(book.getCategory(), clonedBook.getCategory());*/
 
         Assert.assertEquals(book, clonedBook);
-
         Assert.assertNotSame(book, clonedBook);
     }
 }

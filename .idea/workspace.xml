@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c539614-5a72-469c-82a2-65e9cb0462cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/session/SessionObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/session/SessionObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/Book$Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/Book$Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/camp/it/book/store/model/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/camp/it/book/store/model/BookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.camp.it.book.store.model.BookTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.camp.it.book.store.model.BookTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.camp.it.book.store.session.SessionObjectTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.camp.it.book.store.session.SessionObjectTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.camp.it.book.store.utils.FilterUtilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.camp.it.book.store.utils.FilterUtilsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/pl.camp.it.book.store.model.BookTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/pl.camp.it.book.store.model.BookTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/camp/it/book/store/model/BookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/camp/it/book/store/model/BookTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -425,7 +432,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606666106875" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zadania domowe/ostatnie/aga/Magazyn-meble-Web/pom.xml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -435,72 +442,75 @@
       <recent name="E:\IT-CAMP3\2020.11.07-bookStore\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FilterUtilsTest">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="pl.camp.it.book.store.App" />
       <module name="book-store" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.camp.it.book.store.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasketServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book-store" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.camp.it.book.store.model.*" />
+          <option name="PATTERN" value="pl.camp.it.book.store.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.camp.it.book.store.model" />
-      <option name="MAIN_CLASS_NAME" value="pl.camp.it.book.store.model.BookTest" />
+      <option name="PACKAGE_NAME" value="pl.camp.it.book.store.services" />
+      <option name="MAIN_CLASS_NAME" value="pl.camp.it.book.store.services.BasketServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book-store" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.camp.it.book.store.utils.*" />
+          <option name="PATTERN" value="pl.camp.it.book.store.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.camp.it.book.store.utils" />
-      <option name="MAIN_CLASS_NAME" value="pl.camp.it.book.store.utils.FilterUtilsTest" />
+      <option name="PACKAGE_NAME" value="pl.camp.it.book.store.services" />
+      <option name="MAIN_CLASS_NAME" value="pl.camp.it.book.store.services.BookServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterUtilsTest.filterBooksWithNullPattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CommonControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book-store" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.camp.it.book.store.utils.*" />
+          <option name="PATTERN" value="pl.camp.it.book.store.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.camp.it.book.store.utils" />
-      <option name="MAIN_CLASS_NAME" value="pl.camp.it.book.store.utils.FilterUtilsTest" />
-      <option name="METHOD_NAME" value="filterBooksWithNullPattern" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="pl.camp.it.book.store.controllers" />
+      <option name="MAIN_CLASS_NAME" value="pl.camp.it.book.store.controllers.CommonControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SessionObjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book-store" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.camp.it.book.store.session.*" />
+          <option name="PATTERN" value="pl.camp.it.book.store.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.camp.it.book.store.session" />
-      <option name="MAIN_CLASS_NAME" value="pl.camp.it.book.store.session.SessionObjectTest" />
+      <option name="PACKAGE_NAME" value="pl.camp.it.book.store.services" />
+      <option name="MAIN_CLASS_NAME" value="pl.camp.it.book.store.services.OrderServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -508,11 +518,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FilterUtilsTest" />
-        <item itemvalue="JUnit.BookTest" />
-        <item itemvalue="JUnit.SessionObjectTest" />
-        <item itemvalue="JUnit.FilterUtilsTest.filterBooksWithNullPattern" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.CommonControllerTest" />
+        <item itemvalue="JUnit.BasketServiceTest" />
+        <item itemvalue="JUnit.BookServiceTest" />
+        <item itemvalue="JUnit.OrderServiceTest" />
       </list>
     </recent_temporary>
   </component>

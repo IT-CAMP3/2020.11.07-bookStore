@@ -51,6 +51,9 @@ public class BookServiceImpl implements IBookService {
 
     @Override
     public List<Book> getBooksByCategoryWithFilter(String category) {
+        if(category == null) {
+            category = "";
+        }
         switch (category) {
             case "java":
                 return FilterUtils.filterBooks(this.bookDAO.getBooksByCategory(Book.Category.JAVA),

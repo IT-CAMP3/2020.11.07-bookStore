@@ -9,6 +9,7 @@ import pl.camp.it.book.store.database.IBookRepository;
 import pl.camp.it.book.store.model.Book;
 import pl.camp.it.book.store.services.IBookService;
 import pl.camp.it.book.store.session.SessionObject;
+import pl.camp.it.book.store.tasks.SaveProductToDataBase;
 
 import javax.annotation.Resource;
 import java.io.File;
@@ -44,7 +45,6 @@ public class AdminController {
             e.printStackTrace();
         }
 
-
         if(!this.sessionObject.isLogged()) {
             return "redirect:/login";
         }
@@ -54,6 +54,7 @@ public class AdminController {
         } else if(result == IBookService.AddBookResult.BOOK_ADDED) {
             this.sessionObject.setInfo("Dodano nową książkę !!");
         }
+        //new Thread(new SaveProductToDataBase()).start();
         return "redirect:/addProduct";
     }
 
