@@ -10,6 +10,7 @@ import pl.camp.it.book.store.services.IUserService;
 import pl.camp.it.book.store.session.SessionObject;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Service
 public class UserServiceImpl implements IUserService {
@@ -71,5 +72,10 @@ public class UserServiceImpl implements IUserService {
 
         this.userDAO.persistUser(user);
         return true;
+    }
+
+    @Override
+    public List<User> getAllUsers() {
+        return this.userDAO.getAllUsers();
     }
 }

@@ -9,6 +9,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 public class UserDAOImpl implements IUserDAO {
 
@@ -66,6 +67,11 @@ public class UserDAOImpl implements IUserDAO {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public List<User> getAllUsers() {
+        return null;
     }
 
     private User mapResultSetToUser(ResultSet resultSet) throws SQLException {

@@ -10,6 +10,7 @@ import pl.camp.it.book.store.dao.IUserDAO;
 import pl.camp.it.book.store.model.User;
 
 import javax.persistence.NoResultException;
+import java.util.List;
 
 @Repository
 public class HibernateUserDAOImpl implements IUserDAO {
@@ -62,5 +63,14 @@ public class HibernateUserDAOImpl implements IUserDAO {
         } finally {
             session.close();
         }
+    }
+
+    @Override
+    public List<User> getAllUsers() {
+        Session session = this.sessionFactory.openSession();
+        Query<User> query = session.createQuery("FROM pl.camp.it.book.store.model.User");
+        List<User> users = query.getResultList();
+        session.close();
+        return users;
     }
 }

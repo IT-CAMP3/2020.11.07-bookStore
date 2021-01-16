@@ -3,6 +3,8 @@ package pl.camp.it.book.store.dao.impl;
 import pl.camp.it.book.store.dao.IUserDAO;
 import pl.camp.it.book.store.model.User;
 
+import java.util.List;
+
 public class HibernateUserDAOImplStub implements IUserDAO {
     @Override
     public User getUserByLogin(String login) {
@@ -29,5 +31,10 @@ public class HibernateUserDAOImplStub implements IUserDAO {
     @Override
     public void persistUser(User user) {
 
+    }
+
+    @Override
+    public List<User> getAllUsers() {
+        return null;
     }
 }
