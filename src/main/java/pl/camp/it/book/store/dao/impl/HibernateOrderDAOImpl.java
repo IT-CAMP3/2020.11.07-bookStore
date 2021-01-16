@@ -42,4 +42,13 @@ public class HibernateOrderDAOImpl implements IOrderDAO {
         session.close();
         return orders;
     }
+
+    @Override
+    public List<Order> getAllOrders() {
+        Session session = this.sessionFactory.openSession();
+        Query<Order> query = session.createQuery("FROM pl.camp.it.book.store.model.Order");
+        List<Order> orders = query.getResultList();
+        session.close();
+        return orders;
+    }
 }

@@ -11,4 +11,7 @@ public interface IUserService {
     User updateUserPass(ChangePassData changePassData);
     boolean registerUser(UserRegistrationData userRegistrationData);
     List<User> getAllUsers();
+    User getUserById(int id);
+    void persistUser(User user);
+    void updateUser(User user);
 }

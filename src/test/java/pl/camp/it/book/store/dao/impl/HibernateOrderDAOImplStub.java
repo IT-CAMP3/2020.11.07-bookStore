@@ -15,4 +15,9 @@ public class HibernateOrderDAOImplStub implements IOrderDAO {
     public List<Order> getOrdersByUser(int userId) {
         return null;
     }
+
+    @Override
+    public List<Order> getAllOrders() {
+        return null;
+    }
 }

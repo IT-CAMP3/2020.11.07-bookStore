@@ -1,9 +1,8 @@
 package pl.camp.it.book.store.rest.api.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 import pl.camp.it.book.store.model.User;
 import pl.camp.it.book.store.services.IUserService;
 
@@ -22,17 +21,28 @@ public class UserRestController {
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public User getUserById() {
-        return new User();
+    public ResponseEntity<User> getUserById(@PathVariable int id) {
+        User user = this.userService.getUserById(id);
+        if(user == null) {
+            return ResponseEntity.notFound().build();
+        } else {
+            return ResponseEntity.ok(user);
+        }
     }
 
     @RequestMapping(value = "", method = RequestMethod.PUT)
-    public User addUser(User user) {
-        return new User();
+    public User addUser(@RequestBody User user) {
+        this.userService.persistUser(user);
+        return user;
     }
 
     @RequestMapping(value = "", method = RequestMethod.POST)
-    public User updateUser(User user) {
-        return new User();
+    public ResponseEntity<User> updateUser(@RequestBody User user) {
+        if(this.userService.getUserById(user.getId()) == null) {
+            return ResponseEntity.notFound().build();
+        } else {
+            this.userService.updateUser(user);
+            return ResponseEntity.ok(user);
+        }
     }
 }

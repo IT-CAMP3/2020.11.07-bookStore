@@ -126,6 +126,11 @@ public class BookDAOImpl implements IBookDAO {
         return books;
     }
 
+    @Override
+    public void deleteBook(Book book) {
+
+    }
+
     private Book mapResultSetToBook(ResultSet resultSet) throws SQLException {
         Book book = new Book();
         book.setId(resultSet.getInt("id"));

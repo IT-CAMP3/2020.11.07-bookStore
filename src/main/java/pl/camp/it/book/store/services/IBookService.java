@@ -10,6 +10,8 @@ public interface IBookService {
     Book getBookById(int id);
     void updateBook(Book book);
     List<Book> getBooksByCategoryWithFilter(String category);
+    List<Book> getAllBooks();
+    void deleteBook(Book book);
 
     enum AddBookResult {
         PIECES_ADDED,

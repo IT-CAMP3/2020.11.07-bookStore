@@ -35,4 +35,9 @@ public class HibernateBookDAOImplStub implements IBookDAO {
     public List<Book> getAllBooks() {
         return null;
     }
+
+    @Override
+    public void deleteBook(Book book) {
+
+    }
 }

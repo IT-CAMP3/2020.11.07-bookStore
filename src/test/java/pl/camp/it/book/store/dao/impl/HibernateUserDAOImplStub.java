@@ -37,4 +37,9 @@ public class HibernateUserDAOImplStub implements IUserDAO {
     public List<User> getAllUsers() {
         return null;
     }
+
+    @Override
+    public User getUserById(int id) {
+        return null;
+    }
 }

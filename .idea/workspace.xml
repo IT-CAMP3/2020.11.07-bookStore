@@ -6,11 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="8c539614-5a72-469c-82a2-65e9cb0462cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/IBookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/IBookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/IOrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/IOrderDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/IUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/IUserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/BookDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/BookDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/HibernateBookDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/HibernateBookDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/HibernateOrderDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/HibernateOrderDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/HibernateUserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/HibernateUserDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/rest/api/controllers/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/rest/api/controllers/UserRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/IBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/IBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/IOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/IOrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/camp/it/book/store/dao/impl/HibernateBookDAOImplStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/camp/it/book/store/dao/impl/HibernateBookDAOImplStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/camp/it/book/store/dao/impl/HibernateOrderDAOImplStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/camp/it/book/store/dao/impl/HibernateOrderDAOImplStub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/camp/it/book/store/dao/impl/HibernateUserDAOImplStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/camp/it/book/store/dao/impl/HibernateUserDAOImplStub.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -74,4 +74,19 @@ public class OrderServiceImpl implements IOrderService {
     public List<Order> getOrdersForCurrentUser() {
         return this.orderDAO.getOrdersByUser(this.sessionObject.getUser().getId());
     }
+
+    @Override
+    public List<Order> getAllOrders() {
+        return this.orderDAO.getAllOrders();
+    }
+
+    @Override
+    public List<Order> getOrdersForUserById(int id) {
+        return this.orderDAO.getOrdersByUser(id);
+    }
+
+    @Override
+    public void saveOrder(Order order) {
+        this.orderDAO.persistOrder(order);
+    }
 }

@@ -8,4 +8,7 @@ import java.util.List;
 public interface IOrderService {
     void confirmOrder();
     List<Order> getOrdersForCurrentUser();
+    List<Order> getAllOrders();
+    List<Order> getOrdersForUserById(int id);
+    void saveOrder(Order order);
 }

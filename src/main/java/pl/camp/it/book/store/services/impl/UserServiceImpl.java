@@ -78,4 +78,19 @@ public class UserServiceImpl implements IUserService {
     public List<User> getAllUsers() {
         return this.userDAO.getAllUsers();
     }
+
+    @Override
+    public User getUserById(int id) {
+        return this.userDAO.getUserById(id);
+    }
+
+    @Override
+    public void persistUser(User user) {
+        this.userDAO.persistUser(user);
+    }
+
+    @Override
+    public void updateUser(User user) {
+        this.userDAO.updateUser(user);
+    }
 }

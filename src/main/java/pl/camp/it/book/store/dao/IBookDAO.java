@@ -11,4 +11,5 @@ public interface IBookDAO {
     Book getBookById(int id);
     List<Book> getBooksByCategory(Book.Category category);
     List<Book> getAllBooks();
+    void deleteBook(Book book);
 }

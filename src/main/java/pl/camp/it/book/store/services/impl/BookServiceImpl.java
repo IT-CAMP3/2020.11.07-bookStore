@@ -67,4 +67,14 @@ public class BookServiceImpl implements IBookService {
                         this.sessionObject.getFilter());
         }
     }
+
+    @Override
+    public List<Book> getAllBooks() {
+        return this.bookDAO.getAllBooks();
+    }
+
+    @Override
+    public void deleteBook(Book book) {
+        this.bookDAO.deleteBook(book);
+    }
 }

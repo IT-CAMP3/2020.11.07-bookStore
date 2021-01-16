@@ -74,6 +74,11 @@ public class UserDAOImpl implements IUserDAO {
         return null;
     }
 
+    @Override
+    public User getUserById(int id) {
+        return null;
+    }
+
     private User mapResultSetToUser(ResultSet resultSet) throws SQLException {
         User user = new User();
         user.setId(resultSet.getInt("id"));

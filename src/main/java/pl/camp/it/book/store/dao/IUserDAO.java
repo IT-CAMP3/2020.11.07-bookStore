@@ -8,4 +8,5 @@ public interface IUserDAO {
     void updateUser(User user);
     void persistUser(User user);
     List<User> getAllUsers();
+    User getUserById(int id);
 }

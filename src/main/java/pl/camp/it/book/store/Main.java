@@ -49,7 +49,7 @@ public class Main {
 
         /************************************************************/
 
-        IBookDAO mojeNoweJednorazoweDAO = new IBookDAO() {
+        /*IBookDAO mojeNoweJednorazoweDAO = new IBookDAO() {
             @Override
             public Book getBookByISBN(String isbn) {
                 return null;
@@ -79,6 +79,6 @@ public class Main {
             public List<Book> getAllBooks() {
                 return null;
             }
-        };
+        };*/
     }
 }

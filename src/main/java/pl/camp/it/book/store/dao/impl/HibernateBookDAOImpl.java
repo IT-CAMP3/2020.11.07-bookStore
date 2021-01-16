@@ -98,4 +98,20 @@ public class HibernateBookDAOImpl implements IBookDAO {
         session.close();
         return books;
     }
+
+    @Override
+    public void deleteBook(Book book) {
+        Session session = this.sessionFactory.openSession();
+        Transaction tx = null;
+        try {
+            tx = session.beginTransaction();
+            session.delete(book);
+            tx.commit();
+        } catch (Exception e) {
+            if(tx != null)
+                tx.rollback();
+        } finally {
+            session.close();
+        }
+    }
 }

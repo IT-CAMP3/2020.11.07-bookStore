@@ -73,4 +73,19 @@ public class HibernateUserDAOImpl implements IUserDAO {
         session.close();
         return users;
     }
+
+    @Override
+    public User getUserById(int id) {
+        Session session = this.sessionFactory.openSession();
+        Query<User> query = session.createQuery("FROM pl.camp.it.book.store.model.User WHERE id = :id");
+        query.setParameter("id", id);
+        User user = null;
+        try {
+            user = query.getSingleResult();
+        } catch (NoResultException e) {
+            System.out.println("User with id " + id + " not found !!");
+        }
+        session.close();
+        return user;
+    }
 }
