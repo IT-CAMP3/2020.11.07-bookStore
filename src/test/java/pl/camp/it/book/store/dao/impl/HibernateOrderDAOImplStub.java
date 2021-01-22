@@ -20,4 +20,19 @@ public class HibernateOrderDAOImplStub implements IOrderDAO {
     public List<Order> getAllOrders() {
         return null;
     }
+
+    @Override
+    public Order getOrderById(int id) {
+        return null;
+    }
+
+    @Override
+    public void deleteOrder(Order order) {
+
+    }
+
+    @Override
+    public void updateOrder(Order order) {
+
+    }
 }

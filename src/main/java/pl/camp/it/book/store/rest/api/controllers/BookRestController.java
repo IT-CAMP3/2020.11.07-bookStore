@@ -1,5 +1,6 @@
 package pl.camp.it.book.store.rest.api.controllers;
 
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -16,6 +17,7 @@ public class BookRestController {
     @Autowired
     IBookService bookService;
 
+    @ApiOperation(value = "Get all books from BookStore", notes = "Zwraca wszystkie książki znajdujące się w bazie danych")
     @RequestMapping(value = "", method = RequestMethod.GET)
     public List<Book> getAllBooks() {
         return bookService.getAllBooks();

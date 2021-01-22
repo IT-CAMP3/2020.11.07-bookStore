@@ -72,6 +72,26 @@ public class OrderRestController {
         return ResponseEntity.ok(convertDbModelToRestModel(order));
     }
 
+    @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
+    public ResponseEntity deleteOrder(@PathVariable int id) {
+        Order order = this.orderService.getOrderById(id);
+        if(order == null) {
+            return ResponseEntity.notFound().build();
+        }
+        this.orderService.deleteOrder(order);
+        return ResponseEntity.ok().build();
+    }
+
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    public ResponseEntity<RestOrder> getOrderById(@PathVariable int id) {
+        Order order = this.orderService.getOrderById(id);
+        if(order == null) {
+            return ResponseEntity.notFound().build();
+        }
+
+        return ResponseEntity.ok(convertDbModelToRestModel(order));
+    }
+
     private List<RestOrder> convertDdModelListToRestModelList(List<Order> orders) {
         List<RestOrder> restOrders = new ArrayList<>();
 

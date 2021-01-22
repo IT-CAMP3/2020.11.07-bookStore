@@ -89,4 +89,19 @@ public class OrderServiceImpl implements IOrderService {
     public void saveOrder(Order order) {
         this.orderDAO.persistOrder(order);
     }
+
+    @Override
+    public Order getOrderById(int id) {
+        return this.orderDAO.getOrderById(id);
+    }
+
+    @Override
+    public void deleteOrder(Order order) {
+        this.orderDAO.deleteOrder(order);
+    }
+
+    @Override
+    public void updateOrder(Order order) {
+        this.orderDAO.updateOrder(order);
+    }
 }

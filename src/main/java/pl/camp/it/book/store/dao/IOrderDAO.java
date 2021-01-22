@@ -7,4 +7,7 @@ public interface IOrderDAO {
     void persistOrder(Order order);
     List<Order> getOrdersByUser(int userId);
     List<Order> getAllOrders();
+    Order getOrderById(int id);
+    void deleteOrder(Order order);
+    void updateOrder(Order order);
 }

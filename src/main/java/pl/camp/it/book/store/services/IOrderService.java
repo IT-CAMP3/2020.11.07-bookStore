@@ -11,4 +11,7 @@ public interface IOrderService {
     List<Order> getAllOrders();
     List<Order> getOrdersForUserById(int id);
     void saveOrder(Order order);
+    Order getOrderById(int id);
+    void deleteOrder(Order order);
+    void updateOrder(Order order);
 }

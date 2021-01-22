@@ -48,7 +48,6 @@ public class ListBookRepositoryImpl implements IBookRepository {
 
     @Override
     public List<Book> getBooksByCategory(Book.Category category) {
-        //TODO Do zrobienia
         return null;
     }
 
@@ -70,6 +69,5 @@ public class ListBookRepositoryImpl implements IBookRepository {
 
     @Override
     public void updateBook(Book book) {
-        //TODO do zrobienia
     }
 }

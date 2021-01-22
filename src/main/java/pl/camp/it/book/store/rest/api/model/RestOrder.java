@@ -1,11 +1,15 @@
 package pl.camp.it.book.store.rest.api.model;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import pl.camp.it.book.store.model.Order;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@ApiModel("Rest communication representation of Order")
 public class RestOrder {
+    @ApiModelProperty("order unique id")
     private int id;
     private String user;
     private List<String> positions = new ArrayList<>();

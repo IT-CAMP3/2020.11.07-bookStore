@@ -6,25 +6,29 @@
   <component name="ChangeListManager">
     <list default="true" id="8c539614-5a72-469c-82a2-65e9cb0462cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/IBookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/IBookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/configuration/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/configuration/AppConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/IOrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/IOrderDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/IUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/IUserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/BookDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/BookDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/HibernateBookDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/HibernateBookDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/HibernateOrderDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/HibernateOrderDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/HibernateUserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/HibernateUserDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/dao/impl/UserDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/rest/api/controllers/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/rest/api/controllers/UserRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/IBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/IBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/database/impl/ListBookRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/database/impl/ListBookRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/rest/api/controllers/BookRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/rest/api/controllers/BookRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/rest/api/controllers/OrderRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/rest/api/controllers/OrderRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/rest/api/model/RestOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/rest/api/model/RestOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/IOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/IOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/BookServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/camp/it/book/store/services/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/camp/it/book/store/dao/impl/HibernateBookDAOImplStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/camp/it/book/store/dao/impl/HibernateBookDAOImplStub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pl/camp/it/book/store/dao/impl/HibernateOrderDAOImplStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/camp/it/book/store/dao/impl/HibernateOrderDAOImplStub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/camp/it/book/store/dao/impl/HibernateUserDAOImplStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/camp/it/book/store/dao/impl/HibernateUserDAOImplStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/configuration/AppConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/configuration/AppConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/IOrderDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/IOrderDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/impl/HibernateOrderDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/dao/impl/HibernateOrderDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/ListBookRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/database/impl/ListBookRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/rest/api/controllers/BookRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/rest/api/controllers/BookRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/rest/api/controllers/OrderRestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/rest/api/controllers/OrderRestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/rest/api/model/RestOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/rest/api/model/RestOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/IOrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/camp/it/book/store/services/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/camp/it/book/store/dao/impl/HibernateOrderDAOImplStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pl/camp/it/book/store/dao/impl/HibernateOrderDAOImplStub.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,8 +117,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -437,7 +441,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606666106875" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zadania domowe/ostatnie/aga/Magazyn-meble-Web/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WSZIB/Zadania/zadanie2/Kozak/Magazyn/pom.xml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
